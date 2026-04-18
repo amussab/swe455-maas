@@ -1,18 +1,16 @@
-# Python
-__pycache__/
-*.pyc
+# Installers / archives
+*.msi
+*.zip
 
 # Terraform
 .terraform/
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
 
-# Env / secrets
-.env
-
-# Docker
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
+# AWS
+.aws/
